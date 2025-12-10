@@ -11,7 +11,6 @@ O objetivo desta refatoração foi:
 - Definir contratos claros para cálculo de frete e geração de etiquetas;
 - Implementar tratamento de erros previsível, com exceções específicas;
 - Preparar o sistema para extensão (novos fretes, promoções, formatos de etiqueta) sem alterar código já validado;
-- Atender às rubricas propostas de Clean Code, modularidade, baixo acoplamento e reutilização.
 
 Toda a solução foi implementada em um projeto **Spring Boot + Maven**, com organização em pacotes sob `empresa.logistica` e testes automatizados (unitários e property-based).
 
